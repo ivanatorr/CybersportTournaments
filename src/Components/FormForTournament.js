@@ -3,8 +3,8 @@ import { Button, Form, FormControl, Row } from "react-bootstrap";
 import { MDBCol, MDBFormInline, MDBBtn} from 'mdbreact';
 
 export default class FormForTournament extends Component {
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
 
 
 

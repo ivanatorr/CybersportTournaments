@@ -9,13 +9,13 @@ export default class ContentItem extends Component {
             <Col xs ="10"></Col>
             <Col xs = "3">
             <MDBCard>
-                {/* <a href ={this.props.links.tournament}> */}
+                <a href ={this.props.links.tournament}>
                 <MDBCardImage top width = "100%"
                  src = {this.props.links.image} 
                  >
                      {/* <NavLink to = {this.props.links.tournament}/> */}
                 </MDBCardImage>
-                {/* </a> */}
+                </a>
                 <MDBCardBody>
                     <MDBCardTitle>
                         {this.props.title}
